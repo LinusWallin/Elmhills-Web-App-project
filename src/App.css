@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home,
+.about,
+.puppies,
+.dogs {
+    display: flex;
+    height: 100vh;
+}
+
+.home {
+    background-image: url('/public/images/homepage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.welcome {
+    background-color: rgba(26, 23, 23, 0.90);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 575px;
+    height: fit-content;
+    text-align: center;
+    display: block;
+}
+
+.construction {
+    color: rgb(252, 247, 0);
+    font-size: 25px;
+}
+
+@media screen and (max-width: 960px) {
+    .home {
+        background-image: url('/public/images/homepage.jpg');
+        background-position: 10% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+}
