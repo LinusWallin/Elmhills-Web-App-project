@@ -9,6 +9,9 @@ function Home() {
           Elmhills kennel är en SKK godkänd kennel som bedriver en småskalig uppfödning
           av flerfärgade dvärgpudlar strax utanför Västerås.
         </p>
+        <p className='construction'>
+          Hemsidan är under utveckling!
+        </p>
       </div>
     </div>
   )
