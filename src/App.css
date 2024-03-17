@@ -10,14 +10,19 @@
 .dogs {
     display: flex;
     height: 100vh;
-}
-
-.home {
-    background-image: url('/public/images/homepage.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+}
+
+.home {
+    background-image: url('/public/images/homepage.jpg');
+    
+}
+
+.about {
+    background-image: url('/public/images/aboutpage.jpg');
 }
 
 .welcome {
