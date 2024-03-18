@@ -30,13 +30,14 @@
     padding: 30px;
     border-radius: 10px;
     margin: 0 auto;
-    margin-top: 575px;
+    margin-top: 62.5vh;
     height: fit-content;
     text-align: center;
     display: block;
 }
 
 .construction {
+    margin-top: 10px;
     color: rgb(252, 247, 0);
     font-size: 25px;
 }
