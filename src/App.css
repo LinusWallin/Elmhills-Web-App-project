@@ -46,6 +46,8 @@
 }
 
 .text-container {
+    display: flex;
+    flex-direction: column;
     padding: 2rem 0 2rem 0;
     align-items: center;
     text-align: center;

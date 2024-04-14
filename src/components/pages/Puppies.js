@@ -9,8 +9,9 @@ function Puppies() {
     <>
       <div className='text-container'>
         <p className='rubric-1'>
-          Maylines Good Girl (Zoe) är dräktig med Manoukaz Dashing 
-          Dexter (Dexter) och beräknas valpa 02-04-2024!
+          Den 29/3-2024 fick Maylines Good Girl (Zoe) 4 fina små valpar med
+          Manoukaz Dashing Dexter (Dexter). Det är två black and tan hanar,
+          en black and tan tik och en aprikosröd tik.
         </p>
         <p className='rubric-2'>
           Vid intresse får du gärna fylla i formuläret genom att klicka
@@ -25,6 +26,11 @@ function Puppies() {
             Intresseanmälan
           </Button>
         </a>
+      </div>
+      <div className='text-container'>
+        <p className='rubric-1'>
+          Presentation av förälradjuren
+        </p>
       </div>
       <Parents/>
       <Footer/>
