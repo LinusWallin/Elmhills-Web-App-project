@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-function Card(props) {
+function AboutCard(props) {
   return (
     <>
       <li className='card-item'>
@@ -15,10 +15,22 @@ function Card(props) {
           </figure>
           <div className='card-info'>
               <p className='card-info-header'>
-                  {props.header}
+                {props.header}
               </p>
-              <p className='card-info-text'>
-                  {props.text}
+              <p className='card-subheader'>
+                Snabbfakta
+              </p>
+              <ul className='card-bullet-list'>
+                {props.items.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <p>{item}</p>
+                    </li>
+                  );
+                })}
+              </ul>
+              <p>
+                {props.text}
               </p>
           </div>
         </div>
@@ -27,4 +39,4 @@ function Card(props) {
   )
 }
 
-export default Card
+export default AboutCard
