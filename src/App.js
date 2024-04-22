@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Puppies from './components/pages/Puppies';
+import Previous from './components/pages/Previous';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' exact Component={Home}/>
           <Route path='/om-oss' exact Component={About}/>
           <Route path='/valpar' exact Component={Puppies}/>
+          <Route path='/valpar/tidigare-valpkullar' exact Component={Previous}/>
         </Routes>
       </Router>
     </>
