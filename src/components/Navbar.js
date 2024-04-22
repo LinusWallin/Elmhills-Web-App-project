@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <nav className='navbar'>
-      <Link to="/" className='navbar-logo'>
+      <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
         ELMHILLS
       </Link>
       <div className='menu-icon' onClick={handleClick}>
@@ -63,9 +63,15 @@ function Navbar() {
             </Link>)
           }
           {window.innerWidth <= 960 && (
-            <p className='nav-links' onClick={dropdownClick}>
-              Valpar
-            </p>)
+            <>
+              <div className='nav-links' onClick={dropdownClick}>
+                <p>
+                  Valpar <i className={dropdown ? 'fa-solid fa-caret-up' : 'fa-solid fa-caret-down'}/>
+                </p>
+                
+              </div>
+            </>
+            )
           }
           {dropdown && window.innerWidth > 960 && <Dropdown/>}
         </li>

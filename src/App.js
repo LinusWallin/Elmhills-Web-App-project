@@ -16,6 +16,8 @@ function App() {
           <Route path='/om-oss' exact Component={About}/>
           <Route path='/valpar' exact Component={Puppies}/>
           <Route path='/valpar/tidigare-valpkullar' exact Component={Previous}/>
+          <Route path='/valpar/skotselrad' exact Component={About}/>
+          <Route path='/valpar/bra-ovningar' exact Component={About}/>
         </Routes>
       </Router>
     </>
