@@ -7,7 +7,8 @@
 .home,
 .about,
 .puppies,
-.dogs {
+.dogs,
+.prev {
     display: flex;
     height: 100vh;
     background-position: center;
@@ -23,6 +24,13 @@
 
 .about {
     background-image: url('/public/images/aboutpage.jpg');
+}
+
+.prev {
+    background-image: url('/public/images/puppies.jpg');
+    height: 80vh;
+    background-position: 30%;
+    color: #000000;
 }
 
 .welcome {
@@ -48,7 +56,7 @@
 .text-container {
     display: flex;
     flex-direction: column;
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2rem 4rem 1rem 4rem;
     align-items: center;
     text-align: center;
 }
@@ -62,6 +70,11 @@
 .rubric-2 {
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+.top-space {
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .text-container-left {

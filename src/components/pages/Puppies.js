@@ -14,6 +14,12 @@ function Puppies() {
           en black and tan tik och en aprikosröd tik.
         </p>
         <p className='rubric-2'>
+          Som uppfödare har vi höga krav på både mentalitet och hälsa på båda
+          förälradjuren. Därför har vi lagt ner mycket arbete i att para Zoe
+          med den bästa hanen som funnits tillgänglig (Dexter). Det är nu andra
+          kullen som vi har tagit med samma hane.
+        </p>
+        <p className='rubric-2'>
           Vid intresse får du gärna fylla i formuläret genom att klicka
           på knappen nedan.
         </p>
@@ -26,13 +32,8 @@ function Puppies() {
             Intresseanmälan
           </Button>
         </a>
-        <p className='rubric-2'>
-          Som uppfödare har vi höga krav på både mentalitet och hälsa på båda
-          förälradjuren. Därför har vi lagt ner mycket arbete i att para Zoe
-          med den bästa hanen som funnits tillgänglig (Dexter). Det är nu andra
-          kullen som vi har tagit med samma hane.
-        </p>
-        <p className='rubric-1'>
+        
+        <p className='top-space rubric-1'>
           Presentation av förälradjuren
         </p>
       </div>
