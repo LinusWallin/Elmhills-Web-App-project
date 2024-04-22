@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import Puppies from './components/pages/Puppies';
 import Previous from './components/pages/Previous';
 import About1 from './components/pages/About1';
+import OurDogs from './components/pages/OurDogs';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/valpar/tidigare-valpkullar' exact Component={Previous}/>
           <Route path='/valpar/skotselrad' exact Component={About}/>
           <Route path='/valpar/bra-ovningar' exact Component={About}/>
+          <Route path='vara-hundar' exact Component={OurDogs}/>
         </Routes>
       </Router>
     </>
