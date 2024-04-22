@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Puppies from './components/pages/Puppies';
 import Previous from './components/pages/Previous';
+import About1 from './components/pages/About1';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact Component={Home}/>
-          <Route path='/om-oss' exact Component={About}/>
+          <Route path='/om-oss' exact Component={About1}/>
           <Route path='/valpar' exact Component={Puppies}/>
           <Route path='/valpar/tidigare-valpkullar' exact Component={Previous}/>
           <Route path='/valpar/skotselrad' exact Component={About}/>

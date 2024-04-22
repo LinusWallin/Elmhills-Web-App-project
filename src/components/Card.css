@@ -42,6 +42,16 @@
   font-weight: bold;
 }
 
+.card-subheader {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-bullet-list {
+  padding-left: 35px;
+  margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
