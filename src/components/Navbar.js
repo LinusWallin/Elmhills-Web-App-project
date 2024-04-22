@@ -46,8 +46,7 @@ function Navbar() {
             Hem
           </Link>
         </li>
-        <li 
-          className='nav-item'>
+        <li className='nav-item'>
           <Link to='/om-oss' className='nav-links' onClick={closeMobileMenu}>
             Om Oss
           </Link>
