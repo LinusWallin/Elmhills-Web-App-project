@@ -31,8 +31,7 @@ function About1() {
                                 hunduppfödning att göra och frisering av flera hundraser 
                                 för både utställning och vardag. Jag har även vid sidan 
                                 av detta gått på klippkurser för välkända pudelutställare 
-                                och friserat förutom mina egna hundar även vänners 
-                                (och självklart mina egna!) hundar.
+                                och friserat förutom mina egna hundar även vänners hundar.
                                 
                                 Under min gymnasieutbildning genomgick jag SKK:s 
                                 hunduppfödarutbildning, vilket gjorde att intresset 
