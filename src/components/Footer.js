@@ -7,7 +7,7 @@ function Footer() {
       <div className='footer-container'>
         <div className='footer-interest'>
           <p className='footer-interest-header'>
-            För att lämna en intresseanmälan klicka på knappen nedanför
+            För att lämna en intresseanmälan klicka på knappen nedanför.
           </p>
           <a
             href='https://docs.google.com/forms/d/e/1FAIpQLScVrvBgHytFwiDRYYWPAE-WurW3FpKhxguPbjkBGe-H_BF37g/viewform?vc=0&c=0&w=1&flr=0&pli=1'

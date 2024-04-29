@@ -16,11 +16,11 @@ function SlideShow (props) {
 
   return (
     <div className='slideshow'>
-      <div className='slide-container fade'>
-        <p className='slide-info'> 
+      <p className='slide-info'> 
           {props.info[currentIndex]}
-        </p>
-        <img className='slide-image' src={props.images[currentIndex]}/>
+      </p>
+      <div className='slide-container fade'>
+        <img className='slide-image' src={props.images[currentIndex]} alt={props.images[currentIndex]}/>
         <p className='slide-prev' onClick={() => handleClick(-1)}>
           <i className="fa-solid fa-circle-chevron-left"></i>
         </p>
