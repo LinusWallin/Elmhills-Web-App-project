@@ -4,9 +4,9 @@ import SlideShow from '../SlideShow';
 
 function Previous() {
   const test = [
-    '../images/prev_puppies_3.jpg',
-    '../images/prev_puppies_2.jpg',
-    '../images/prev_puppies_1.jpg',
+    '../images/prev_puppies_3.webp',
+    '../images/prev_puppies_2.webp',
+    '../images/prev_puppies_1.webp',
   ];
   const test2 = [
     '',

@@ -7,10 +7,10 @@ import '../../App.css'
 
 function Puppies() {
   const imgs = [
-    'images/vecka_1.jpg',
-    'images/vecka_2.jpg',
-    'images/vecka_3.jpg',
-    'images/vecka_4.jpg'
+    'images/vecka_1.webp',
+    'images/vecka_2.webp',
+    'images/vecka_3.webp',
+    'images/vecka_4.webp'
   ];
   const imgInfo = [
     'Vecka 1',
@@ -46,7 +46,6 @@ function Puppies() {
             Intresseanmälan
           </Button>
         </a>
-        
       </div>
       <SlideShow images={imgs} info={imgInfo}/>
       <div className='text-container'>
@@ -54,7 +53,6 @@ function Puppies() {
           Presentation av förälradjuren
         </p>
       </div>
-      
       <Parents/>
       <Footer/>
     </>

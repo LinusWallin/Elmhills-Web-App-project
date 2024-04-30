@@ -10,7 +10,7 @@ function About1() {
                 <div className='card-wrap'>
                     <ul className='cards-list'>
                         <AboutCard
-                            src='images/aboutpage.jpg'
+                            src='images/aboutpage.webp'
                             header='Ella'
                             items={[
                                 'Har genomgått SKK:s hunduppfödarutbildning',
@@ -55,7 +55,7 @@ function About1() {
                                 tävlingsbanorna.'
                         />
                         <AboutCard
-                            src='images/mamma.jpg'
+                            src='images/mamma.webp'
                             header='Päivi'
                             items={[
                                 'Uppvuxen med hundar.', 

@@ -25,7 +25,7 @@ function Parents() {
                 sig alltid ett skratt.'
               />
               <Card
-                src='images/dexter.jpg'
+                src='images/dexter.webp'
                 header='Dexter'
                 text='Dexter är en danskfödd dvärgpudelhane med 
                 mycket bra exteriör och mentalitet. Han är en 
