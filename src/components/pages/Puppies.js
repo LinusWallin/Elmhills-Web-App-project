@@ -46,12 +46,16 @@ function Puppies() {
             Intresseanmälan
           </Button>
         </a>
-        <p className='top-space rubric-1'>
+        
+      </div>
+      <SlideShow images={imgs} info={imgInfo}/>
+      <div className='text-container'>
+        <p className='rubric-1'>
           Presentation av förälradjuren
         </p>
       </div>
+      
       <Parents/>
-      <SlideShow images={imgs} info={imgInfo}/>
       <Footer/>
     </>
   )
