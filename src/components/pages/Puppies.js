@@ -2,9 +2,23 @@ import React from 'react'
 import Footer from '../Footer'
 import Parents from '../Parents'
 import { Button } from '../Button'
+import SlideShow from '../SlideShow'
 import '../../App.css'
 
 function Puppies() {
+  const imgs = [
+    'images/vecka_1.webp',
+    'images/vecka_2.webp',
+    'images/vecka_3.webp',
+    'images/vecka_4.webp'
+  ];
+  const imgInfo = [
+    'Vecka 1',
+    'Vecka 2',
+    'Vecka 3',
+    'Vecka 4',
+  ];
+
   return (
     <>
       <div className='text-container'>
@@ -32,8 +46,10 @@ function Puppies() {
             Intresseanmälan
           </Button>
         </a>
-        
-        <p className='top-space rubric-1'>
+      </div>
+      <SlideShow images={imgs} info={imgInfo}/>
+      <div className='text-container'>
+        <p className='rubric-1'>
           Presentation av förälradjuren
         </p>
       </div>

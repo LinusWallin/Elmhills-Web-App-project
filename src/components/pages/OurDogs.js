@@ -26,7 +26,7 @@ function OurDogs() {
                             sig alltid ett skratt.'
                         />
                         <Card
-                            src='images/kacey.jpg'
+                            src='images/kacey.webp'
                             header='Kacey'
                             text='Kacey är vår allra första pudel som har bidragit 
                             till mycket av den kunskap som vi uppfödare har om 
