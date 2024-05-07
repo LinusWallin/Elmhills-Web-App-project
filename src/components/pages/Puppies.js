@@ -10,13 +10,15 @@ function Puppies() {
     'images/vecka_1.webp',
     'images/vecka_2.webp',
     'images/vecka_3.webp',
-    'images/vecka_4.webp'
+    'images/vecka_4.webp',
+    'images/vecka_5.webp'
   ];
   const imgInfo = [
     'Vecka 1',
     'Vecka 2',
     'Vecka 3',
     'Vecka 4',
+    'Vecka 5'
   ];
 
   return (
