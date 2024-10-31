@@ -5,7 +5,7 @@ export const DropdownItems = [
     },
     {
         title: 'Tidigare valpkullar',
-        path: '/valpar/tidigare-valpkullar',
+        path: '/tidigare-valpkullar',
     },
     /* {
         title: 'Skötselråd',
