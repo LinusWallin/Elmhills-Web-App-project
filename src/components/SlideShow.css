@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 1400px;
+    max-height: 1200px;
 }
 
 .slide-image {
@@ -14,9 +15,22 @@
     background-repeat: no-repeat;
 }
 
+.slide-loading-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .slide-container {
     position: relative;
     margin: 0px 20px 20px 20px;
+}
+
+.slide-loading-img-container {
+    width: 100%;
+    height: 100%;
 }
 
 .slide-next, .slide-prev {
